@@ -100,9 +100,7 @@ publication
 
 rappel: https://github.com/sylvani/sylrplm.git
 
-git remote add origin git@github.com:sylvani/string_to_sha1
-
-git remote add origin https://github.com/sylvani/string_to_sha1.git
+git remote add origin git@github.com:sylvani/string_to_sha1.git
 git add .
 git commit -m "First release"
 git push origin master
