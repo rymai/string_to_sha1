@@ -8,6 +8,4 @@ class String
   end
 end
 
-ActiveSupport.on_load(:action_view) do
-  include StringToSha1::Helper
-end
+ActionView::Base.send :include, StringToSha1::Helper
