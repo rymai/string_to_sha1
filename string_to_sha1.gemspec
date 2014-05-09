@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "string_to_sha1"
   s.version     = StringToSha1::VERSION
   s.authors     = ["SC"]
-  s.email       = ["nico@bounga.org"]
+  s.email       = ["sc@bounga.org"]
   s.homepage    = "http://github.com/sylvani/string_to_sha1"
   s.summary     = %q{Add SHA1 hashing from string}
   s.description = %q{This gem add a facility method to easily convert existing string to SHA1 hash.}
